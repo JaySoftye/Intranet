@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+html {
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 0 !important;
+  padding: 0 0 !important;
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button {
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 300;
+  color: rgb(50,62,72);
+}
+
+a, a:focus, a:hover, a:active {
+  outline: 0;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.blue-text {
+  color: rgb(0,180,228) !important;
+}
+
+.green-text {
+  color: rgb(161,215,132) !important;
+}
+
+.nopadding {
+  padding: 0 0 !important;
+}
+
+.padding {
+  padding: 2.5rem;
+}
+
+.padding-right {
+  padding-right: 6rem;
+}
+
+.padding-left {
+  padding-left: 6rem;
+}
+
+.padding-top {
+  padding-top: 10rem;
+}
+
+.padding-bottom {
+  padding-bottom: 10rem;
+}
+
+.margin-top {
+  margin-top: 3rem;
+}
+
+.margin-bottom {
+  margin-bottom: 3rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.row.full {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+strong {
+  font-weight: 700 !important;
+}
+
+nav#handbook-header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(210, 212, 212);
+  -webkit-box-shadow: 0px -40px 50px 0px rgb(255, 255, 255);
+  -moz-box-shadow: 0px -40px 50px 0px rgb(255, 255, 255);
+  box-shadow: 0px -40px 50px 0px rgb(255, 255, 255);
+  z-index: 50;
+}
+
+footer#handbook-footer {
+  display: none;
+}
+
+.scrolldown {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+
+div.chapter-select label {
+  color: black;
+  padding-top: 15px;
+}
+
+main.white-bg, .white-bg, main.white-bg section {
+  background-color: white !important;
+  padding: 5% 2%;
+}
+
+#handbook-contents ol {
+  list-style: none;
+  counter-reset: section;
+  padding: 10px 0;
+}
+
+#handbook-contents ol li {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0 10px;
+  border-bottom: dotted thin rgba(0, 0, 0, 0.5);
+  clear: both;
+}
+
+#handbook-contents ol li::after {
+  position: relative;
+  counter-increment: section;
+  content: counters(section,".") " ";
+  float: right;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#handbook-post-contents article.post {
+  padding: 5% 0;
+}
+
+#handbook-post-contents article.post div.info-section {
+  -webkit-columns: 2 100px;
+  -moz-columns: 2 100px;
+  columns: 2 100px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+#handbook-post-contents ul li, #handbook-post-contents ol li, #handbook-post-contents li {
+  list-style: disc !important;
+}
+
+header#directions-header, nav#directions-footer {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 50;
+}
+
+header#directions-header {
+  height: 10%;
+  top: 0;
+  -moz-box-shadow: 0 8px 6px -6px #FFFFFF;
+  -webkit-box-shadow: 0 8px 6px -6px #FFFFFF;
+  box-shadow: 0 8px 6px -6px #FFFFFF;
+}
+
+nav#directions-footer {
+  height: 30%;
+  bottom: 0;
+}
+
+main#directions {
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 30%;
+}
+
+main#directions div.row .img-column {
+  width: auto;
+  position: fixed;
+  top: 10%;
+  z-index: 20;
+}
+
+main#directions div.row {
+  padding-bottom: 2.5%;
+}
+
+main#directions div.row img {
+  max-width: inherit;
+}
+
+main#directions .text {
+  position: relative;
+  padding-top: 5%;
+  z-index: 30;
+}
+
+main#directions .text p {
+  text-indent: 0;
+}
+
+@media (max-width: 768px) {
+  .hide-small, svg {
+    display: none !important;
+  }
+  .hide-large {
+    display: block !important;
+  }
+  .padding {
+    padding: .5rem !important;
+  }
+  #handbook-post-contents {
+    padding-bottom: 24% !important;
+  }
+  #handbook-post-contents article.post div.info-section {
+    -webkit-columns: 1 100px !important;
+    -moz-columns: 1 100px !important;
+    columns: 1 100px !important;
+  }
+}
+
+@media print {
+  nav#handbook-header, svg, #handbook-contents ol {
+    display: none !important;
+  }
+  footer#handbook-footer{
+    display: block;
+  }
+  main.white-bg, .white-bg, main.white-bg section, #handbook-post-contents .post {
+    padding: 10px 10px !important;
+  }
+}
