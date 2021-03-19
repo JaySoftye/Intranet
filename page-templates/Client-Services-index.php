@@ -37,28 +37,28 @@ get_header(); ?>
       <div class="column small-centered small-12 medium-12">
         <div class="row text-center">
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/rma-process"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>RMA Process</span></a>
+            <a href="/client-services/rma-process"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>RMA Process</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/loyalty"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>Loyalty<br /></span></a>
+            <a href="/client-services/loyalty"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>Loyalty<br /></span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/sca-stem-templates"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>SCA STEM Templates</span></a>
+            <a href="/client-services/sca-stem-templates"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>SCA STEM Templates</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/trial-forms"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>Trial<br />Forms</span></a>
+            <a href="/client-services/trial-forms"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>Trial<br />Forms</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/company-processes"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>Company Processes</span></a>
+            <a href="/client-services/company-processes"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>Company Processes</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/client-service-executive-manual"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-iconsvg" /><span>Executive Manual</span></a>
+            <a href="/client-services/client-service-executive-manual"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>Executive Manual</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services//client-services-templates"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>Client Services Templates</span></a>
+            <a href="/client-services//client-services-templates"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>Client Services Templates</span></a>
           </div>
           <div class="columns small-6 medium-2 category-link">
-            <a href="/client-services/iblock-process"><img src="<?php echo get_template_directory_uri(); ?>/images/client-services-icon.svg" /><span>iBlock Process</span></a>
+            <a href="/client-services/iblock-process"><img src="<?php echo get_template_directory_uri(); ?>/images/sales-assistance-forms-icon.svg" /><span>iBlock Process</span></a>
           </div>
         </div>
       </div>

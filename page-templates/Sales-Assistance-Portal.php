@@ -95,6 +95,9 @@ get_header(); ?>
           <a href="/sales-assistance/sales-training/"><img src="https://intranet.teq.com/wp-content/themes/FoundationPress-master/images/sales-assistance-training-icon.svg" /><span>Sales Training</span></a>
         </div>
         <div class="columns small-6 medium-2 category-link">
+          <a href="/sales-assistance/enterprise/"><img src="https://intranet.teq.com/wp-content/themes/FoundationPress-master/images/sales-assistance-enterprise-icon.svg" /><span>Enterprise</span></a>
+        </div>
+        <div class="columns small-6 medium-2 category-link">
           <a href="/sales-assistance/sales-processes/">
             <?php
               $recent_processes = wp_get_recent_posts(array('post_type' => 'salesassistance' , 'category_name' => 'sales-processes', 'posts_per_page' => 1));
@@ -166,7 +169,7 @@ get_header(); ?>
             <span>SPIF</span>
           </a>
         </div>
-        <div class="columns small-6 medium-2 category-link">
+        <div class="columns small-6 medium-2 category-link" style="clear:both;">
           <a href="https://teqinc.sharepoint.com/:x:/s/Library/EWg3AoABumJGhAFuaTBepiwBxRPY5kFJT5atCeGyJZVNrA?e=4%3AukubM6&at=9&CID=8847A1AB-2200-4305-AB5C-31170C2C2039&wdLOR=c9AFAE0E3-4951-431A-9C75-946488E33685"><img src="https://intranet.teq.com/wp-content/themes/FoundationPress-master/images/sales-assistance-email-campaigns-icon.svg" /><span>Marketing Campaigns</span></a>
         </div>
         <div class="columns small-6 medium-2 category-link">
