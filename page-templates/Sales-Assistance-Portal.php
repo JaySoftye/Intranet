@@ -54,7 +54,8 @@ get_header(); ?>
         <a href="https://teqinc.sharepoint.com/sites/PriceBooks/Shared%20Documents/Forms/AllItems.aspx" class="white-text main-links">Price Books / Bids / Contracts</a><br />
         <a href="https://iblockstracker.teq.com/" class="white-text main-links">iBlocks Tracker</a><br />
         <a href="https://support.smarttech.com/forms/warranty-form" class="white-text main-links">SMART Warranty/Software Key Lookup</a><br />
-        <a href="https://helpdesk.teq.com/" class="white-text main-links">helpdesk.teq.com</a>
+        <a href="https://helpdesk.teq.com/" class="white-text main-links">helpdesk.teq.com</a><br />
+        <a href="https://intranet.teq.com/wp-content/uploads/2021/03/OTPS-Obj-Code-June2020.pdf" class="white-text main-links">NYCDOE Obj Codes</a>
       </h5>
     </div>
     <div class="columns small-4 padding-left">
