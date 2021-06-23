@@ -172,11 +172,14 @@ if(isset($_POST['email'])) {
   if(!empty($_POST["quantity_otisForEducatorsFullBooklet"])) {
     $otisForEducatorsFullBooklet = $_POST['quantity_otisForEducatorsFullBooklet'] . " copies of the OTIS for educators full Booklet \n";
   }
-  if(!empty($_POST["quantity_chainReactionContraptionIblock"])) {
-    $chainReactionContraptionIblock = $_POST['quantity_chainReactionContraptionIblock'] . " copies of the Chain-Reaction Contraption 5hr iBlock \n";
+  if(!empty($_POST["quantity_rubeGoldbergSampleIblock"])) {
+    $rubeGoldbergSampleIblock = $_POST['quantity_rubeGoldbergSampleIblock'] . " copies of the Rube Goldberg Sample iBlock \n";
   }
-  if(!empty($_POST["quantity_prostheticHandIblock"])) {
-    $prostheticHandIblock = $_POST['quantity_prostheticHandIblock'] . " copies of the Prosthetic Hand 5hr iBlock \n";
+  if(!empty($_POST["quantity_prostheticsSampleIblock"])) {
+    $prostheticsSampleIblock = $_POST['quantity_prostheticsSampleIblock'] . " copies of the Prosthetics Sample iBlock \n";
+  }
+  if(!empty($_POST["quantity_designComicBookSampleIblock"])) {
+    $designComicBookSampleIblock = $_POST['quantity_designComicBookSampleIblock'] . " copies of the Design a Comic Book Sample iBlock \n";
   }
   if(!empty($_POST["quantity_stembundlescdwdistricts"])) {
     $stemSolutionsCdwDistricts = $_POST['quantity_stembundlescdwdistricts'] . " copies of the STEM Bundles CDW Districts Catalog \n";
@@ -224,7 +227,7 @@ if(isset($_POST['email'])) {
     $evospacesDatasheet = $_POST['quantity_evospacesDatasheet'] . " copies of the Evospaces Datasheet \n";
   }
 
-  $requested_materials = array($businessCards, $pdCatalog , $otisDatasheet, $techCatalog, $techCatalogNy, $steamCatalog, $stemSolutionsCdwDistricts, $stemSolutionsCdwNyc,  $classroomPlan, $iblockspathways, $iblocksNycoePricing, $iblocksCdwPricing, $iblocksNysPricing, $iblocksPeppmPricing, $gradeBandCompatibilityChart, $smart6000series, $smart7000series, $smartmxseries, $smartlearningsuite, $prostheticHandIblock, $chainReactionContraptionIblock, $otisForEducatorsFullBooklet, $evospacesDatasheet, $saelabels, $singlesheetstem );
+  $requested_materials = array($businessCards, $pdCatalog , $otisDatasheet, $techCatalog, $techCatalogNy, $steamCatalog, $stemSolutionsCdwDistricts, $stemSolutionsCdwNyc,  $classroomPlan, $iblockspathways, $iblocksNycoePricing, $iblocksCdwPricing, $iblocksNysPricing, $iblocksPeppmPricing, $gradeBandCompatibilityChart, $smart6000series, $smart7000series, $smartmxseries, $smartlearningsuite, $rubeGoldbergSampleIblock, $prostheticsSampleIblock, $designComicBookSampleIblock, $otisForEducatorsFullBooklet, $evospacesDatasheet, $saelabels, $singlesheetstem );
   $requested_printed = "";
     foreach( $requested_materials as $value ) {
       $requested_printed .= $value;

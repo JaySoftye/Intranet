@@ -112,6 +112,5 @@
 var ccfm = {"ajax_url":"http:\/\/intranet.teq.com\/wp-admin\/admin-ajax.php","nonce":"d2b5f46162"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://intranet.teq.com/wp-content/plugins/clear-cache-for-widgets/js/admin-bar.js?ver=1613163480"></script>
 <script type="text/javascript" src="https://intranet.teq.com/wp-content/themes/FoundationPress-master/assets/javascript/foundation.js?ver=1613163480"></script>
 <script type="text/javascript" src="https://intranet.teq.com/wp-includes/js/wp-embed.min.js?ver=1613163480"></script>
