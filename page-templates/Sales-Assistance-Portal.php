@@ -63,7 +63,8 @@ get_header(); ?>
         <a href="https://ace.myisolved.com/UserLogin.aspx?ReturnUrl=%2fdefault.aspx" class="white-text main-links">iSolved</a><br />
         <a href="https://web.expensewire.com/expensewire/SignInPage.aspx" class="white-text main-links">ExpenseWire</a><br />
         <a href="https://teqinc-my.sharepoint.com/:x:/r/personal/brianfried_teq_com/_layouts/15/Doc.aspx?sourcedoc=%7B86721c85-1551-4619-a0a5-2686d49f38c2%7D&action=default&cid=33bd7901-6b0e-40fe-92e5-dded1964ab01" class="white-text main-links">Covering AE</a><br />
-        <a href="https://payonline.teq.com/" class="white-text main-links">payonline.teq.com</a>
+        <a href="https://payonline.teq.com/" class="white-text main-links">payonline.teq.com</a><br />
+        <a href="https://intranet.teq.com/sample-videos/" class="white-text main-links">Sample Videos / Course List</a>
       </h5>
     </div>
   </div>

@@ -1,0 +1,18 @@
+#footer-container {
+	max-width: 100%;
+	width: 100%;
+	background-color: rgba(32, 38, 43, 1);
+	color: #eceeef;
+	#footer {
+		padding: rem-calc(30) 0;
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		p {
+			margin-top: .125rem;
+		}
+	}
+}
