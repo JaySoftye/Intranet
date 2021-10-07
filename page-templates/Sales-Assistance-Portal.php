@@ -55,7 +55,8 @@ get_header(); ?>
         <a href="https://iblockstracker.teq.com/" class="white-text main-links">iBlocks Tracker</a><br />
         <a href="https://support.smarttech.com/forms/warranty-form" class="white-text main-links">SMART Warranty/Software Key Lookup</a><br />
         <a href="https://helpdesk.teq.com/" class="white-text main-links">helpdesk.teq.com</a><br />
-        <a href="https://intranet.teq.com/wp-content/uploads/2021/03/OTPS-Obj-Code-June2020.pdf" class="white-text main-links">NYCDOE Obj Codes</a>
+        <a href="https://intranet.teq.com/wp-content/uploads/2021/03/OTPS-Obj-Code-June2020.pdf" class="white-text main-links">NYCDOE Obj Codes</a><br />
+        <a href="https://teqinc.sharepoint.com/:x:/s/marketing/EX8Q2PVtr0ZJtnTVCa1x_dEBslWL-nox-j7UmZwfMCs6Dg?e=W2BXA6&CID=3A482173-6C81-4B97-A7A1-75F5D1F16074&wdLOR=c989A781B-D2C4-460F-ACDF-63AC2A1466D0" class="white-text main-links">Vendor Inventory/Lead Time</a>
       </h5>
     </div>
     <div class="columns small-4 padding-left">
