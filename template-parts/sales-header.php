@@ -20,6 +20,12 @@
       <a class="white header-link" href="http://sfs.teq.com/" title="sfs">SFS</a>
       -->
     </div>
+    <div class="columns small-6 medium-2 hide-small">
+      <a class="white header-link" href="https://crm.teq.com/User/Login" title="crm.teq.com"><b>CRM.teq.com</b></a>
+      <!--
+      <a class="white header-link" href="#" title="PD">SAP Teq INC</a>
+      -->
+    </div>
     <div class="columns small-6 medium-2">
       <a class="white header-link" href="https://intranet.teq.com/client-services" title="ps">Client Services</a>
       <!--
@@ -36,12 +42,6 @@
       <a class="white header-link" href="https://intranet.teq.com/marketing/event-requests" title="Event Request">Virtual/In Person Event Requests</a>
       <!--
       <a class="white header-link" href="#" title="rus">SAP Tequipment</a>
-      -->
-    </div>
-    <div class="columns small-6 medium-2 hide-small">
-      <a class="white header-link" href="https://intranet.teq.com/support" title="support">Teq Support</a>
-      <!--
-      <a class="white header-link" href="#" title="PD">SAP Teq INC</a>
       -->
     </div>
   </div>
