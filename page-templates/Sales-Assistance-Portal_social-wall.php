@@ -60,8 +60,9 @@ get_header(); ?>
       <p class="white-text"><a onclick="toggle_visibility('messaging');"class="white-text main-links"><strong>RECENT NEWS AND UPDATES</strong></a> | <a href="/sales/sales-messaging/"><small class="white-text"><em>VIEW ALL</em></small></a>
     </div>
     <div class="columns small-12 medium-6">
-      <button type="button" onclick="toggle_visibility('messaging');" style="height:36px;width:36px;display:block;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;">
-        <svg version="1.1" viewBox="0 0 36 36"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
+      <button type="button" onclick="toggle_visibility('messaging');" style="display:flex;align-items:center;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;color:#FFFFFF;font-weight:700;font-size:12px;">
+        Show/Hide
+        <svg version="1.1" viewBox="0 0 36 36" style="height:36px;width:36px;"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
       </button>
     </div>
   </div>
@@ -82,11 +83,11 @@ get_header(); ?>
          <div class="sales-message-content row">
            <div class="column">
              <h6><small style="text-transform:uppercase;"><?php echo get_the_date('M d, Y'); ?></small></h6>
-             <h4><a href="<?php the_permalink(); ?>" style="text-align:left;font-weight:bold" target="_blank"><?php the_title(); ?></a></h4>
+             <h4><a href="<?php the_permalink(); ?>" style="text-align:left;font-weight:bold"><?php the_title(); ?></a></h4>
              <div style="font-size:13px !important;word-break: break-word;">
                <?php the_excerpt(); ?>
              </div>
-             <a href="<?php the_permalink(); ?>" style="display:block;text-align:right;" target="_blank"><span class="material-icons" aria-hidden="true" translate="no">shortcut</span></a>
+             <a href="<?php the_permalink(); ?>" style="display:block;text-align:right;"><span class="material-icons" aria-hidden="true" translate="no">shortcut</span></a>
            </div>
          </div>
        </div>
@@ -100,8 +101,9 @@ get_header(); ?>
       <a onclick="toggle_visibility('quick-links');"class="white-text main-links"><strong>QUICK LINKS</strong></a>
     </div>
     <div class="columns small-12 medium-6">
-      <button type="button" onclick="toggle_visibility('quick-links');" style="height:36px;width:36px;display:block;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;">
-        <svg version="1.1" viewBox="0 0 36 36"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
+      <button type="button" onclick="toggle_visibility('quick-links');" style="display:flex;align-items:center;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;color:#FFFFFF;font-weight:700;font-size:12px;">
+        Show/Hide
+        <svg version="1.1" viewBox="0 0 36 36" style="height:36px;width:36px;"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
       </button>
     </div>
   </div>
@@ -146,8 +148,9 @@ get_header(); ?>
       <a onclick="toggle_visibility('social-wall');"class="white-text main-links"><strong>RECENT SOCIAL POSTS</strong></a> | <small class="white-text"><em>To share the post, Click the tile and use the bottom right corner social buttons</em></small></p>
   </div>
   <div class="columns small-12 medium-4">
-    <button type="button" onclick="toggle_visibility('social-wall');" style="height:36px;width:36px;display:block;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;">
-      <svg version="1.1" viewBox="0 0 36 36"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
+    <button type="button" onclick="toggle_visibility('social-wall');" style="display:flex;align-items:center;margin:0 0 0 auto;padding:0;text-align:right;background:transparent;color:#FFFFFF;font-weight:700;font-size:12px;">
+      Show/Hide
+      <svg version="1.1" viewBox="0 0 36 36" style="height:36px;width:36px;"><path fill="#FFFFFF" d="M18,27.213c-0.321,0-0.643-0.122-0.887-0.368l-4.686-4.686c-0.49-0.49-0.49-1.285,0-1.775 c0.49-0.49,1.285-0.49,1.775,0L18,24.183l3.799-3.799c0.49-0.49,1.285-0.49,1.775,0c0.49,0.49,0.49,1.285,0,1.775l-4.686,4.686 C18.642,27.09,18.321,27.213,18,27.213z"/><path fill="#FFFFFF" d="M22.686,15.418c-0.321,0-0.642-0.122-0.887-0.368L18,11.253l-3.799,3.798c-0.49,0.49-1.285,0.49-1.775,0 c-0.49-0.49-0.49-1.285,0-1.775l4.686-4.686c0.49-0.49,1.285-0.49,1.775,0l4.686,4.686c0.49,0.49,0.49,1.285,0,1.775 C23.328,15.296,23.007,15.418,22.686,15.418z"/></svg>
     </button>
   </div>
 </div>
